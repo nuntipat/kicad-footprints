@@ -22,7 +22,7 @@
   (pad 5 thru_hole circle (at 6.57 2.71) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at -6.57 2.71) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask F.SilkS))
   (model Connect.3dshapes/USB_A.wrl
-    (at (xyz 0.14 0 0))
+    (offset (xyz 3.555999946594238 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )

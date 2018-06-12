@@ -17,7 +17,7 @@
   (pad "" smd rect (at -3.75 -0.18) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 3.75 -0.18) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (model GiraffeTech-Switch.3dshapes/js102000saqn.wrl
-    (at (xyz 0 0.014 0.001))
+    (offset (xyz 0 0.3555999946594238 0.02539999961853028))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 270 0 0))
   )

@@ -20,7 +20,7 @@
   (pad 6 smd rect (at -1.2 0) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.2 0) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (model Connect.3dshapes/ZX62-B-5P.wrl
-    (at (xyz 0.15 0.12 0))
+    (offset (xyz 3.809999942779541 3.047999954223633 0))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 90 180 -90))
   )
