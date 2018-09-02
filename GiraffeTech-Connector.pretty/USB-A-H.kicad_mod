@@ -6,7 +6,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.1016)))
   )
   (fp_text value "" (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
   (fp_line (start -17.79778 -5.99948) (end -17.79778 5.99948) (layer F.SilkS) (width 0.2032))
   (fp_line (start -2.99974 -5.99948) (end -2.99974 5.99948) (layer B.SilkS) (width 0.2032))
