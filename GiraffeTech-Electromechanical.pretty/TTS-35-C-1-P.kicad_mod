@@ -1,4 +1,4 @@
-(module TTS-35-C-1-P (layer F.Cu) (tedit 5BCDC3B4)
+(module TTS-35-C-1-P (layer F.Cu) (tedit 5BD4A14E)
   (descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf")
   (attr smd)
   (fp_text reference REF** (at 0 -2.65) (layer F.SilkS)
@@ -28,8 +28,8 @@
   (fp_line (start -3.1 -1.85) (end -3.1 -1.2) (layer F.SilkS) (width 0.12))
   (fp_line (start 3.1 -1.85) (end -3.1 -1.85) (layer F.SilkS) (width 0.12))
   (fp_line (start -3.1 1.85) (end 3.1 1.85) (layer F.SilkS) (width 0.12))
-  (pad 2 smd rect (at 3.7 0) (size 2 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -3.7 0) (size 2 1.6) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.7 0) (size 1.8 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -3.7 0) (size 1.8 1.4) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQPE1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
