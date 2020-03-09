@@ -1,4 +1,4 @@
-(module Fabby_V1_1x3_S (layer F.Cu) (tedit 5E63E965)
+(module Fabby_V1_1x3_S (layer F.Cu) (tedit 5E668F4C)
   (fp_text reference REF** (at 0 -7.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -66,4 +66,6 @@
   (pad 62 thru_hole roundrect (at 15 0 180) (size 1.25 0.6) (drill 0.5) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 63 thru_hole roundrect (at 15 1 180) (size 1.25 0.6) (drill 0.5) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 64 thru_hole roundrect (at 15 2 180) (size 1.25 0.6) (drill 0.5) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad 1 thru_hole roundrect (at -15 -5) (size 1.25 1.25) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (pad 22 thru_hole roundrect (at -15 5) (size 1.25 1.25) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
 )
