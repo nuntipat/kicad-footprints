@@ -1,4 +1,4 @@
-(module Adafruit-Feather (layer F.Cu) (tedit 5EA3E511)
+(module Adafruit-Feather (layer F.Cu) (tedit 5EA3E8B6)
   (fp_text reference MS2 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
@@ -19,9 +19,9 @@
   (fp_arc (start 2.54 -2.54) (end 0 -2.54) (angle -90) (layer F.SilkS) (width 0.12))
   (pad "" np_thru_hole circle (at 48.26 -20.32) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 48.26 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (pad P$1 thru_hole circle (at 2.54 -20.32) (size 4 4) (drill 3) (layers *.Cu *.Mask)
+  (pad MP thru_hole circle (at 2.54 -20.32) (size 4 4) (drill 3) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
-  (pad P$2 thru_hole circle (at 2.54 -2.54) (size 4 4) (drill 3) (layers *.Cu *.Mask)
+  (pad MP thru_hole circle (at 2.54 -2.54) (size 4 4) (drill 3) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
   (pad 28 thru_hole circle (at 16.51 -21.59) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0508))
