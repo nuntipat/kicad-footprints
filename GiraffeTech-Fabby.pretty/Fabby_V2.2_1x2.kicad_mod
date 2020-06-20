@@ -5,6 +5,7 @@
   (fp_text value Fabby_V2.2_1x2 (at 0 8.255) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_arc (start -12.7 -6.35) (end -12.7 -5.715) (angle -90) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -12.7 6.35) (end -12.7 -6.35) (layer B.CrtYd) (width 0.12))
   (fp_line (start 12.7 6.35) (end -12.7 6.35) (layer B.CrtYd) (width 0.12))
   (fp_line (start 12.7 -6.35) (end 12.7 6.35) (layer B.CrtYd) (width 0.12))
@@ -17,7 +18,6 @@
   (fp_line (start 12.7 -5.715) (end 12.7 5.715) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -0.635 6.35) (end -12.065 6.35) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -12.7 -5.715) (end -12.7 5.715) (layer Edge.Cuts) (width 0.12))
-  (fp_arc (start -12.7 -6.35) (end -12.7 -5.715) (angle -90) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -0.635 6.35) (end -0.635 5.715) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -0.635 5.715) (end 0 5.715) (layer Edge.Cuts) (width 0.12))
   (fp_line (start -0.635 -6.35) (end -0.635 -5.715) (layer Edge.Cuts) (width 0.12))
@@ -38,346 +38,7 @@
   (fp_line (start 0.635 6.35) (end 12.065 6.35) (layer Edge.Cuts) (width 0.12))
   (fp_line (start 12.7 5.715) (end 12.065 5.715) (layer Edge.Cuts) (width 0.12))
   (fp_line (start 12.065 6.35) (end 12.065 5.715) (layer Edge.Cuts) (width 0.12))
-  (pad "" thru_hole roundrect (at -12.7 -3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at 0 5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 2 thru_hole custom (at -11.43 -3.81) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 1 thru_hole roundrect (at -11.43 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -12.7 -2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 3 thru_hole custom (at -11.43 -2.54) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad "" thru_hole roundrect (at -12.7 -1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -12.7 0 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -12.7 1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -12.7 2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -12.7 3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 4 thru_hole custom (at -11.43 -1.27) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 5 thru_hole custom (at -11.43 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 6 thru_hole custom (at -11.43 1.27) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 7 thru_hole custom (at -11.43 2.54) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 8 thru_hole custom (at -11.43 3.81) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 9 thru_hole roundrect (at -11.43 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 1 thru_hole roundrect (at -12.7 -5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 1 thru_hole roundrect (at -11.43 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 9 thru_hole roundrect (at -12.7 5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 9 thru_hole roundrect (at -11.43 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -10.16 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -8.89 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -7.62 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -6.35 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -5.08 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -3.81 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -2.54 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at -1.27 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at -1.27 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 10 thru_hole custom (at -10.16 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 11 thru_hole custom (at -8.89 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 12 thru_hole custom (at -7.62 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 13 thru_hole custom (at -6.35 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 14 thru_hole custom (at -5.08 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 15 thru_hole custom (at -3.81 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 16 thru_hole custom (at -2.54 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad "" thru_hole roundrect (at -2.54 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -3.81 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -5.08 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -6.35 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -7.62 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -8.89 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at -10.16 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at 0 5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at 1.27 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 17 thru_hole roundrect (at 1.27 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 18 thru_hole custom (at 2.54 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 19 thru_hole custom (at 3.81 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 20 thru_hole custom (at 5.08 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 21 thru_hole custom (at 6.35 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 22 thru_hole custom (at 7.62 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 23 thru_hole custom (at 8.89 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 24 thru_hole custom (at 10.16 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 25 thru_hole roundrect (at 11.43 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 25 thru_hole roundrect (at 11.43 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 2.54 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 3.81 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 5.08 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 6.35 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 7.62 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 8.89 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 10.16 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 25 thru_hole roundrect (at 12.7 5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 26 thru_hole custom (at 11.43 3.81 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 27 thru_hole custom (at 11.43 2.54 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 28 thru_hole custom (at 11.43 1.27 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 29 thru_hole custom (at 11.43 0 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 30 thru_hole custom (at 11.43 -1.27 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 31 thru_hole custom (at 11.43 -2.54 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 32 thru_hole custom (at 11.43 -3.81 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad "" thru_hole roundrect (at 12.7 2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 0 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 -1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 -2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 12.7 -3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 33 thru_hole roundrect (at 11.43 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 33 thru_hole roundrect (at 12.7 -5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 33 thru_hole roundrect (at 11.43 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 34 thru_hole custom (at 10.16 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 35 thru_hole custom (at 8.89 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 36 thru_hole custom (at 7.62 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 37 thru_hole custom (at 6.35 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 38 thru_hole custom (at 5.08 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 39 thru_hole custom (at 3.81 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 40 thru_hole custom (at 2.54 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad "" thru_hole roundrect (at 10.16 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 8.89 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 7.62 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 6.35 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 5.08 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 3.81 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad "" thru_hole roundrect (at 2.54 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at 1.27 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at 1.27 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at 0 -5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at 0 -5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at -1.27 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 41 thru_hole roundrect (at -1.27 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
-  (pad 42 thru_hole custom (at -2.54 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 43 thru_hole custom (at -3.81 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 44 thru_hole custom (at -5.08 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 45 thru_hole custom (at -6.35 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
-  (pad 46 thru_hole custom (at -7.62 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+  (pad 48 thru_hole custom (at -10.16 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -391,11 +52,350 @@
       (gr_poly (pts
          (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
     ))
-  (pad 48 thru_hole custom (at -10.16 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+  (pad 46 thru_hole custom (at -7.62 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
     ))
+  (pad 45 thru_hole custom (at -6.35 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 44 thru_hole custom (at -5.08 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 43 thru_hole custom (at -3.81 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 42 thru_hole custom (at -2.54 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 41 thru_hole roundrect (at -1.27 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 41 thru_hole roundrect (at -1.27 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 41 thru_hole roundrect (at 0 -5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 41 thru_hole roundrect (at 0 -5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 41 thru_hole roundrect (at 1.27 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 41 thru_hole roundrect (at 1.27 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 2.54 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 3.81 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 5.08 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 6.35 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 7.62 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 8.89 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 10.16 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 40 thru_hole custom (at 2.54 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 39 thru_hole custom (at 3.81 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 38 thru_hole custom (at 5.08 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 37 thru_hole custom (at 6.35 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 36 thru_hole custom (at 7.62 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 35 thru_hole custom (at 8.89 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 34 thru_hole custom (at 10.16 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 33 thru_hole roundrect (at 11.43 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 33 thru_hole roundrect (at 12.7 -5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 33 thru_hole roundrect (at 11.43 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 -3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 -2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 -1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 0 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 32 thru_hole custom (at 11.43 -3.81 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 31 thru_hole custom (at 11.43 -2.54 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 30 thru_hole custom (at 11.43 -1.27 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 29 thru_hole custom (at 11.43 0 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 28 thru_hole custom (at 11.43 1.27 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 27 thru_hole custom (at 11.43 2.54 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 26 thru_hole custom (at 11.43 3.81 180) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 25 thru_hole roundrect (at 12.7 5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 12.7 3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 10.16 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 8.89 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 7.62 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 6.35 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 5.08 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 3.81 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at 2.54 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 25 thru_hole roundrect (at 11.43 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 25 thru_hole roundrect (at 11.43 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 24 thru_hole custom (at 10.16 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 23 thru_hole custom (at 8.89 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 22 thru_hole custom (at 7.62 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 21 thru_hole custom (at 6.35 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 20 thru_hole custom (at 5.08 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 19 thru_hole custom (at 3.81 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 18 thru_hole custom (at 2.54 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 17 thru_hole roundrect (at 1.27 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 17 thru_hole roundrect (at 1.27 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 17 thru_hole roundrect (at 0 5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -10.16 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -8.89 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -7.62 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -6.35 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -5.08 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -3.81 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -2.54 -6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 16 thru_hole custom (at -2.54 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 15 thru_hole custom (at -3.81 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 14 thru_hole custom (at -5.08 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 13 thru_hole custom (at -6.35 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 12 thru_hole custom (at -7.62 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 11 thru_hole custom (at -8.89 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 10 thru_hole custom (at -10.16 5.08 90) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 17 thru_hole roundrect (at -1.27 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 17 thru_hole roundrect (at -1.27 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -2.54 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -3.81 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -5.08 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -6.35 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -7.62 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -8.89 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -10.16 6.35 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 9 thru_hole roundrect (at -11.43 6.35) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 9 thru_hole roundrect (at -12.7 5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 1 thru_hole roundrect (at -11.43 -6.35 180) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 1 thru_hole roundrect (at -12.7 -5.08 270) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 9 thru_hole roundrect (at -11.43 5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 8 thru_hole custom (at -11.43 3.81) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 7 thru_hole custom (at -11.43 2.54) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 6 thru_hole custom (at -11.43 1.27) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 5 thru_hole custom (at -11.43 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 4 thru_hole custom (at -11.43 -1.27) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad "" thru_hole roundrect (at -12.7 3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -12.7 2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -12.7 1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -12.7 0 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -12.7 -1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 3 thru_hole custom (at -11.43 -2.54) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad "" thru_hole roundrect (at -12.7 -2.54 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 1 thru_hole roundrect (at -11.43 -5.08 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad 2 thru_hole custom (at -11.43 -3.81) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
+    ))
+  (pad 17 thru_hole roundrect (at 0 5.08 90) (size 1 2.254) (drill 0.6 (offset 0 -0.643)) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
+  (pad "" thru_hole roundrect (at -12.7 -3.81 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.2))
 )
