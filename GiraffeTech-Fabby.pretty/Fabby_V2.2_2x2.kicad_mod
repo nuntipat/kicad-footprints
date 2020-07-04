@@ -1,5 +1,5 @@
-(module Fabby_V2.2_2x2 (layer F.Cu) (tedit 5EEA65DD)
-  (fp_text reference REF** (at 0 -14.478) (layer F.SilkS)
+(module Fabby_V2.2_2x2 (layer F.Cu) (tedit 5EFF7072)
+  (fp_text reference REF** (at 0 -14.478) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Fabby_V2.2_2x2 (at 0 14.605) (layer F.Fab)
