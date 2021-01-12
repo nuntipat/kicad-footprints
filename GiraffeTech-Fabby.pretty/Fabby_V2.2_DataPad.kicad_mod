@@ -1,15 +1,10 @@
-(module Fabby_V2.2_DataPad (layer F.Cu) (tedit 5EFF6D43)
+(module Fabby_V2.2_DataPad (layer F.Cu) (tedit 5FFD9D81)
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Fabby_V2.2_DataPad (at 0 2.54) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" smd custom (at 0 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_poly (pts
-         (xy -0.5 -0.5) (xy 0 -0.5) (xy 0 0.5) (xy -0.5 0.5)) (width 0))
-    ))
+  (pad "" smd roundrect (at 0 0 90) (size 0.6 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (zone_connect 0))
 )
