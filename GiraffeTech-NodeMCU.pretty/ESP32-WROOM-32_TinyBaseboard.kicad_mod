@@ -1,4 +1,4 @@
-(module ESP32-WROOM-32_TinyBaseboard (layer F.Cu) (tedit 6048AF74)
+(module ESP32-WROOM-32_TinyBaseboard (layer F.Cu) (tedit 604E16E7)
   (descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
   (tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
   (attr smd)
@@ -114,6 +114,8 @@
   (pad 2 smd rect (at -8.5 -6.985) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -8.5 -8.255) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 39 smd rect (at -1 -0.755) (size 5 5) (layers F.Cu F.Paste F.Mask))
+  (pad 12 smd rect (at -8.5 5.715) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
+  (pad 14 smd rect (at -8.5 8.255) (size 2 0.9) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP32-WROOM-32.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
