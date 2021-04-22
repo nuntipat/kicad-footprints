@@ -1,0 +1,10 @@
+(module Fabby_V2.2_DataPad_1-1.27mm (layer F.Cu) (tedit 6081EEAA)
+  (fp_text reference REF** (at 0 -1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Fabby_V2.2_DataPad_1-1.27mm (at 0 1.27) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" smd roundrect (at 0 0) (size 0.6 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (zone_connect 0))
+)
